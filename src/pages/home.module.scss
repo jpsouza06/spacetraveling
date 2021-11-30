@@ -1,1 +1,60 @@
-// TODO
+.logo {
+  img {
+    padding-top: 5rem;
+  }
+}
+
+.posts {
+  padding-top: 4rem;
+
+  h1 {
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--gray-10);
+
+    margin-bottom: 0.5rem;
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--gray-50);
+    margin-bottom: 1.5rem;
+  }
+
+  section {
+    margin-bottom: 3rem;
+
+    time, span {
+      font-weight: 400;
+      font-size: 14px;
+      color: var(--gray-100);
+    }
+
+    time {
+      margin-right: 1.5rem;
+    }
+
+    .iconCalendar {
+      margin-right: 0.5rem;
+    }
+
+    .iconUser {
+      margin-right: 0.5rem;
+    }
+  
+  }
+
+
+}
+
+.button {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--pink);
+  margin-top: 1rem;
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
