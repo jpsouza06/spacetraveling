@@ -34,14 +34,27 @@
       margin-bottom: 1.5rem;
     }
 
+    a {
+      text-decoration: underline;
+    }
+
+    li {
+      margin-left: 1.5rem;
+    }
+
   }
 
   section {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
+
+    &:last-child {
+      margin-bottom: 4rem;
+    }
 
     time, span {
       font-weight: 400;
       font-size: 14px;
+
       color: var(--gray-100);
     }
 
@@ -62,12 +75,51 @@
 
     .iconClock {
       margin-right: 0.5rem;
+    }
 
+    .lastPublicationDate {
+      font-style: italic;
     }
   
   }
 
   .title {
     margin-top: 5rem;
+  }
+
+  .line {
+    border-top: 1px solid var(--gray-50);
+    opacity: 0.1;
+    margin-bottom: 3rem;
+  }
+
+  .navigatePosts {
+    padding-bottom: 5rem;
+   
+    a {
+      font-weight: 400;
+      font-size: 18px;
+      color: var(--gray-10);
+      display: grid;
+      
+
+
+      span {
+        font-weight: 600;
+        font-size: 16px;
+        color: var(--pink);
+        margin: 0;
+        padding-top: 0.5rem;      
+      }
+    }
+
+    .prevPost {
+      max-width: 40%;
+      margin-right: 60%;
+    }
+
+    .nextPost {
+      max-width: 40%;
+      margin-left: 60%;    }
   }
 }

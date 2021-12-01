@@ -12,6 +12,8 @@ import Post, { getStaticProps, getStaticPaths } from '../../pages/post/[slug]';
 
 interface Post {
   first_publication_date: string | null;
+  last_publication_date: string | null;
+  uid: string;
   data: {
     title: string;
     banner: {

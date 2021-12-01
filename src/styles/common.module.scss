@@ -1,3 +1,18 @@
 .container {
   max-width: 700px;
 }
+
+.exitPreview {
+  background-color: var(--gray-10);
+  margin: 5rem auto;
+  text-align: center;
+  padding: 1.125rem 0;
+
+  a {
+    color: var(--gray-200);
+
+    font-size: 18px;
+    font-weight: 600;
+    
+  }
+}
