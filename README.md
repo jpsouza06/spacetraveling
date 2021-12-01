@@ -26,6 +26,8 @@
 
 A simple blog where we can see the title of the post on the home page and, when clicking, be redirected to the post.
 
+The site was made with NextJS, the posts are loaded by Prismic CMS and the comments are made through the Utterances.
+
 ##
 
 
