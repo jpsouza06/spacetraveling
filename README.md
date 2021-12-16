@@ -3,9 +3,6 @@
   <img src="https://user-images.githubusercontent.com/54922299/144234514-0f8666f4-44e9-45ca-a9f0-274fa5f91bf9.png" width="300">
 </div>
 <p align="center">
-    Project developed during the Bootcamp Ignite module | <a href="https://rocketseat.com.br/">@Rocketseat</a>
-</p>
-<p align="center">
     Made by <a href="https://github.com/jpsouza06">Joao Paulo</a>
 </p>
 <p align="center"  color="#FF57B2">
